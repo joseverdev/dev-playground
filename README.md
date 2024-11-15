@@ -1,8 +1,10 @@
 # Dev Playground
 
-This project was inspired as a **FREE** alternative to [RunJS](https://runjs.app/) due to its current limitation of 50 runs per day. Additionally, by using `vscode` and local `terminal`, you can leverage all the tools, extensions, and configurations that you prefer.
+This project was inspired as alternative to [RunJS](https://runjs.app/), due to its current limitation of 50 runs per day. 
 
-No more testing limitations, install package depencies, use all the tabs that you like.
+Additionally, by using `vscode` and local `terminal`, you can leverage all the tools, extensions, and configurations that you prefer. 
+
+Without ridiculous limitations, like pay to use external package depencies, use all the tabs that you need, change themes, install extensions and snippets. All for **FREE**.
 
 ## Pre-requisites
 
@@ -12,7 +14,7 @@ npm install --global nodemon
 npm install --global tsx
 ```
 
-> console-ninja CLI actually does not support node `18+` versions. So we need to use node `16` version. 
+> console-ninja CLI does not support node `18+` versions. So we need to use node `16` version.   
 > Once the new version compatible with `22+` version this project will be updated using `watch` and `--experimental-strip-types`
 
 ## Extensions
