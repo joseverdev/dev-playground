@@ -2,6 +2,8 @@
 
 This project was inspired as a **FREE** alternative to [RunJS](https://runjs.app/) due to its current limitation of 50 runs per day. Additionally, by using `vscode` and local `terminal`, you can leverage all the tools, extensions, and configurations that you prefer.
 
+No more testing limitations, install package depencies, use all the tabs that you like.
+
 ## Pre-requisites
 
 ```bash
@@ -15,16 +17,20 @@ npm install --global tsx
 
 ## Extensions
 
-While there are several recommended extensions for this project, the only mandatory one is `Console Ninja`.
+![recommended](.github/assets/extensions.png)
+
+While there are several recommended extensions for this project, the only mandatory one is `Console Ninja` and choose `[Use free version]`.
+
+![console-ninja-free](.github/assets/console-ninja-free.png)
+
+## Output
+
+To view the output, open the command palette with `cmd+shift+p` (macOS) or `ctrl+shift+p` (Windows/Linux) and execute the `Console Ninja: Show Output` command. You can then move this tab to a preferred position within your workspace for convenience.
 
 ## Run
 
 `npm run js <javascript file path>`
 `npm run ts <typescript file path>`
-
-## Output
-
-To view the output, open the command palette with `cmd+shift+p` (macOS) or `ctrl+shift+p` (Windows/Linux) and execute the `Console Ninja: Show Output` command. You can then move this tab to a preferred position within your workspace for convenience.
 
 ## About
 
