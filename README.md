@@ -1,21 +1,18 @@
 # Dev Playground
 
-This project was inspired as alternative to [RunJS](https://runjs.app/), due to its current limitation of 50 runs per day. 
+This project was inspired as alternative to [RunJS](https://runjs.app/), due to its current limitation of 50 runs per day.
 
-Additionally, by using `vscode` and local `terminal`, you can leverage all the tools, extensions, and configurations that you prefer. 
+Additionally, by using `vscode` and local `terminal`, you can leverage all the tools, extensions, and configurations that you prefer.
 
 Without ridiculous limitations, like pay to use external package depencies, use all the tabs that you need, change themes, install extensions and snippets. All for **FREE**.
 
 ## Pre-requisites
 
-```bash
-npm install --global console-ninja
-npm install --global nodemon
-npm install --global tsx
-```
+Run the following command to install the dependencies:
 
-> console-ninja CLI does not support node `18+` versions. So we need to use node `16` version.   
-> Once the new version compatible with `22+` version this project will be updated using `watch` and `--experimental-strip-types`
+```bash
+npm install
+```
 
 ## Extensions
 
@@ -25,14 +22,21 @@ While there are several recommended extensions for this project, the only mandat
 
 ![console-ninja-free](.github/assets/console-ninja-free.png)
 
+> `console-ninja` CLI does not support node `18+` versions. So we need to use node `16` version.  
+> Once the new version compatible with `22+` version this project will be updated using `watch` and `--experimental-strip-types`
+
 ## Output
 
 To view the output, open the command palette with `cmd+shift+p` (macOS) or `ctrl+shift+p` (Windows/Linux) and execute the `Console Ninja: Show Output` command. You can then move this tab to a preferred position within your workspace for convenience.
 
 ## Run
 
-`npm run js <javascript file path>`
-`npm run ts <typescript file path>`
+Open terminal and run one of those commands:
+
+| Language   | Command                             |
+| ---------- | ----------------------------------- |
+| JavaScript | `npm run js <javascript file path>` |
+| TypeScript | `npm run ts <typescript file path>` |
 
 ## About
 
