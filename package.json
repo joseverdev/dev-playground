@@ -1,13 +1,13 @@
 {
-    "name": "dev-playground",
-    "description": "Dev Playground",
-    "version": "1.0.0",
-    "main": "src/index.ts",
-    "scripts": {
-      "js": "console-ninja nodemon",
+  "name": "dev-playground",
+  "description": "Dev Playground",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+      "js": "console-ninja node --watch",
       "ts": "console-ninja tsx watch"
-    },
-    "keywords": [
+  },
+  "keywords": [
       "dev",
       "playground",
       "development",
@@ -18,14 +18,16 @@
       "typescript",
       "node",
       "nodejs"
-    ],
-    "author": "deinsoftware",
-    "contributors": [
+  ],
+  "author": "deinsoftware",
+  "contributors": [
       "equiman"
-    ],
-    "volta": {
+  ],
+  "volta": {
       "node": "16.20.2",
       "npm": "8.19.4"
-    }
+  },
+  "devDependencies": {
+      "tsx": "^4.19.2"
   }
-  
+}
