@@ -1,19 +1,26 @@
 # Dev Playground
 
-This project was inspired as alternative to [RunJS](https://runjs.app/), due to its current limitation of 50 runs per day on free plan.
+This project was inspired as an alternative to [RunJS](https://runjs.app/), a commendable project. However, the limitations of its free plan, such as the restriction to 50 runs per day, prompted us to create a more open solution.
 
-Additionally, by using `vscode` and local `terminal`, you can leverage all the tools, extensions, and configurations that you prefer.
-Without ridiculous limitations, like paying for the ability to save files, use external packages as dependencies, multiple tabs, change themes, install extensions or use snippets.  
+Dev Playground is a pre-configured project over `vscode` and the community version of `console-ninja`, designed to provide a more open and flexible solution, free from limitations.
 
-Dev Playground, give you the same power and even more features as [RunJS](https://runjs.app/) but all **really** for **FREE**.
+By leveraging your local environment and the power of `vscode` and its extensions, you have complete control over your development experience. There are no restrictions on the number of runs, saving files, using external packages, managing multiple tabs, customizing themes, or installing extensions.
 
-## Pre-requisites
+## Clone
 
-Run the following command to install the dependencies:
+Clone this repository to your local environment:
+
+```bash
+git clone https://github.com/deinsoftware/dev-playground.git
+```
+
+Then, run the following command to install the dependencies:
 
 ```bash
 npm install
 ```
+
+> For TS projects will use `tsx`, in a future when `console-ninja` support the new version compatible with `22+` version and `--experimental-strip-types` this dependency will be removed.
 
 ## Extensions
 
@@ -23,8 +30,7 @@ While there are several recommended extensions for this project, the only mandat
 
 ![console-ninja-free](.github/assets/console-ninja-free.png)
 
-> `console-ninja` CLI does not support node `18+` versions. So we need to use node `16` version.  
-> Once the new version compatible with `22+` version this project will be updated using `watch` and `--experimental-strip-types`
+> `console-ninja` CLI only does support node `18+` versions. So we need to use node `16` version.
 
 ## Run
 
