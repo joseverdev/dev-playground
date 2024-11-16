@@ -18,4 +18,7 @@
         "profileBadge.background": "#323330",
         "profileBadge.foreground": "#F7DF1E"
     },
+    // Debug
+    "console-ninja.installBinToPath": true,
+    "console-ninja.featureSet": "Community"
 }
