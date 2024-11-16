@@ -6,13 +6,30 @@ Dev Playground is a pre-configured project over `vscode` and the community versi
 
 By leveraging your local environment and the power of `vscode` and its extensions, you have complete control over your development experience. There are no restrictions on the number of runs, saving files, using external packages, managing multiple tabs, customizing themes, or installing extensions.
 
-## Clone
+---
+
+## Menu
+
+- [Setup](#setup)
+- [Playground](#playground)
+- [About](#about)
+
+---
+
+## Setup
+
+### Clone
 
 Clone this repository to your local environment:
 
 ```bash
 git clone https://github.com/deinsoftware/dev-playground.git
 ```
+
+> [!TIP]
+> To maintain your own customized version of Dev Playground, consider forking this repository to your GitHub account. This approach allows you to leverage the advantages of a Git repository, enabling you to save and manage your experiments on GitHub.
+
+### Dependencies
 
 Then, run the following command to install the dependencies:
 
@@ -22,7 +39,7 @@ npm install
 
 > For TS projects will use `tsx`, in a future when `console-ninja` support the new version compatible with `22+` version and `--experimental-strip-types` this dependency will be removed.
 
-## Extensions
+### Extensions
 
 ![recommended](.github/assets/extensions.png)
 
@@ -32,13 +49,19 @@ While there are several recommended extensions for this project, the only mandat
 
 Please note that the `console-ninja` CLI currently only supports Node.js versions `16`. Ensure that your system uses this version with `nvm` or `volta`.
 
+⇧ [Back to menu](#menu)
+
+---
+
 ## Playground
 
-In order to prepare the environment, we need to run `console-ninja` and open the **show output` tab.
+### Output
+
+Run `console-ninja` and open the **show output` tab.
 
 ![show-output](.github/assets/show-output.gif)
 
-## Run
+### Run
 
 Open terminal and run one of those commands:
 
@@ -49,9 +72,9 @@ Open terminal and run one of those commands:
 
 ![run-js](.github/assets/run-js.gif)
 
-### Documentation
+⇧ [Back to menu](#menu)
 
-
+---
 
 ## About
 
@@ -95,3 +118,5 @@ If this project helps you, consider buying me a cup of coffee.
 
 [![GitHub Sponsors](https://img.shields.io/badge/-GitHub%20Sponsors-gray?style=flat&labelColor=171515&logo=github&logoColor=white&link=https://github.com/sponsors/deinsoftware)](https://github.com/sponsors/deinsoftware)
 [![paypal](https://img.shields.io/badge/-PayPal-gray?style=flat&labelColor=00457C&logo=paypal&logoColor=white&link=https://paypal.me/equiman/3)](https://paypal.me/equiman/3)
+
+⇧ [Back to menu](#menu)
