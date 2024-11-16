@@ -47,6 +47,8 @@ Open terminal and run one of those commands:
 | JavaScript | `npm run js <javascript file path>` |
 | TypeScript | `npm run ts <typescript file path>` |
 
+![run-js](.github/assets/run-js.gif)
+
 ## About
 
 ### Built With
