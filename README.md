@@ -30,7 +30,13 @@ While there are several recommended extensions for this project, the only mandat
 
 ![console-ninja-free](.github/assets/console-ninja-free.png)
 
-> `console-ninja` CLI only does support node `18+` versions. So we need to use node `16` version.
+Please note that the `console-ninja` CLI currently only supports Node.js versions `16`. Ensure that your system uses this version with `nvm` or `volta`.
+
+## Playground
+
+In order to prepare the environment, we need to run `console-ninja` and open the **show output` tab.
+
+![show-output](.github/assets/show-output.gif)
 
 ## Run
 
