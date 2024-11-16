@@ -49,6 +49,10 @@ Open terminal and run one of those commands:
 
 ![run-js](.github/assets/run-js.gif)
 
+### Documentation
+
+
+
 ## About
 
 ### Built With
@@ -61,9 +65,11 @@ Open terminal and run one of those commands:
 ### NPM Packages
 
 - [console-ninja](https://www.npmjs.com/package/console-ninja) - output and runtime errors directly in your editor from.
-- [nodemon](https://www.npmjs.com/package/nodemon) - tool that helps develop Node.js based applications by automatically restarting the node application when file changes are detected.
 - [tsx](https://www.npmjs.com/package/tsx) - the easiest way to run TypeScript in Node.js
-.
+
+### Documentation
+
+- Official `console-ninja` documentation about [Universal Node applications](https://github.com/wallabyjs/console-ninja?tab=readme-ov-file#universal-node-applications) configuration.
 
 ### Contributing
 
