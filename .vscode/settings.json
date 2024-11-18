@@ -4,20 +4,6 @@
         "equiman",
         "volta"
     ],
-    // Styles
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#F7DF1E",
-        "activityBar.foreground": "#000000",
-        "activityBar.inactiveForeground": "#00000099",
-        "activityBarBadge.background": "#323330",
-        "activityBarBadge.foreground": "#F7DF1E",
-        "statusBar.noFolderBackground": "#323330",
-        "statusBar.background": "#F7DF1E",
-        "statusBar.foreground": "#000000",
-        "statusBarItem.hoverBackground": "#32333099",
-        "profileBadge.background": "#323330",
-        "profileBadge.foreground": "#F7DF1E"
-    },
     // Debug
     "console-ninja.installBinToPath": true,
     "console-ninja.featureSet": "Community"
