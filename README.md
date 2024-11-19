@@ -27,7 +27,7 @@ git clone https://github.com/deinsoftware/dev-playground.git
 ```
 
 > [!TIP]
-> To maintain your own customized version of Dev Playground, consider forking this repository to your GitHub account. This approach allows you to leverage the advantages of a Git repository, enabling you to save and manage your experiments on GitHub.
+> Consider forking this repository to your GitHub account. This approach allows you to leverage the advantages of a Git repository, enabling you to save and manage your experiments on GitHub.
 
 ### Dependencies
 
@@ -37,8 +37,6 @@ Then, run the following command to install the dependencies:
 npm install
 ```
 
-> For TS projects will use `tsx`, in a future when `console-ninja` support the new version compatible with `22+` version and `--experimental-strip-types` this dependency will be removed.
-
 ### Extensions
 
 ![recommended](.github/assets/extensions.png)
@@ -47,7 +45,7 @@ While there are several recommended extensions for this project, the only mandat
 
 ![console-ninja-free](.github/assets/console-ninja-free.png)
 
-Please note that the `console-ninja` CLI currently only supports Node.js versions `16`. Ensure that your system uses this version with `nvm` or `volta`.
+> Console Ninja supports virtually any node application (starting from node v16.15.0). Ensure that your system uses a version above with `nvm` or `volta`.
 
 ⇧ [Back to menu](#menu)
 
@@ -65,10 +63,13 @@ Run `console-ninja` and open the **show output` tab.
 
 Open terminal and run one of those commands:
 
-| Language   | Command                             |
-| ---------- | ----------------------------------- |
-| JavaScript | `npm run js <javascript file path>` |
-| TypeScript | `npm run ts <typescript file path>` |
+| Language   | Command                              |
+| ---------- | ------------------------------------ |
+| JavaScript | `npm run js <javascript file path>`  |
+| TypeScript | `npm run ts <typescript file path>`  |
+| TypeScript | `npm run tsx <typescript file path>` |
+
+> The `ts` command executes with Node.js using the `--experimental-strip-types` flag. In case of any issues, `tsx` serves as an alternative to execute TypeScript.
 
 ![run-js](.github/assets/run-js.gif)
 

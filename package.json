@@ -2,10 +2,14 @@
   "name": "dev-playground",
   "description": "Dev Playground",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=16"
+  },
   "main": "src/index.js",
   "scripts": {
       "js": "console-ninja node --watch",
-      "ts": "console-ninja tsx watch"
+      "ts": "console-ninja node --watch --experimental-strip-types",
+      "tsx": "console-ninja tsx watch"
   },
   "keywords": [
       "dev",
@@ -24,10 +28,10 @@
       "equiman"
   ],
   "volta": {
-      "node": "16.20.2",
-      "npm": "8.19.4"
+      "node": "22.11.0",
+      "npm": "10.9.0"
   },
   "devDependencies": {
-      "tsx": "^4.19.2"
+      "tsx": "4.19.2"
   }
 }
