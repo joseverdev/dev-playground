@@ -1,10 +1,7 @@
 {
-    "cSpell.words": [
-        "deinsoftware",
-        "equiman",
-        "volta"
-    ],
-    // Debug
-    "console-ninja.installBinToPath": true,
-    "console-ninja.featureSet": "Community"
+  "cSpell.words": ["deinsoftware", "equiman", "volta"],
+  // Debug
+  "console-ninja.installBinToPath": true,
+  "console-ninja.featureSet": "Community",
+  "liveSassCompile.settings.showOutputWindowOn": "Error"
 }

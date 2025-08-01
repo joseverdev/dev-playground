@@ -5,33 +5,34 @@
   "engines": {
     "node": ">=16"
   },
-  "main": "src/index.js",
+  "main": "index.js",
   "scripts": {
-      "js": "console-ninja node --watch",
-      "ts": "console-ninja node --watch --experimental-strip-types",
-      "tsx": "console-ninja tsx watch"
+    "dev": "console-ninja node --watch ",
+    "js": "console-ninja node --watch index.js",
+    "ts": "console-ninja node --watch --experimental-strip-types",
+    "tsx": "console-ninja tsx watch"
   },
   "keywords": [
-      "dev",
-      "playground",
-      "development",
-      "console",
-      "console-ninja",
-      "cli",
-      "javascript",
-      "typescript",
-      "node",
-      "nodejs"
+    "dev",
+    "playground",
+    "development",
+    "console",
+    "console-ninja",
+    "cli",
+    "javascript",
+    "typescript",
+    "node",
+    "nodejs"
   ],
   "author": "deinsoftware",
   "contributors": [
-      "equiman"
+    "equiman"
   ],
   "volta": {
-      "node": "22.11.0",
-      "npm": "10.9.0"
+    "node": "22.11.0",
+    "npm": "10.9.0"
   },
   "devDependencies": {
-      "tsx": "4.19.2"
+    "tsx": "4.19.2"
   }
 }
